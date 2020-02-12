@@ -7,7 +7,7 @@ import * as cookieParser from "cookie-parser";
 const transportador = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "juancher84@gmail.com",
+    user: "",
     pass: ""
   }
 })
